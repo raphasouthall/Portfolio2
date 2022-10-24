@@ -1,3 +1,8 @@
+@font-face {
+    src: url(assets/fonts/e17e57567eb605cf.ttf);
+    font-family: ex;
+  }
+
 *
 {
     margin: 0;
@@ -24,23 +29,61 @@ body
 }
 
 
-.section
+.section1
 {
     display: flex;
-    align-items: center;
     height: 100vh;
-    position: relative;
-    font-family: 'Cabin', sans-serif;
-    color: #ffeded;
-    text-transform: uppercase;
+    /* position: relative; */
+    font-family: ex;
+    color: #000000;
+    /* text-transform: uppercase; */
+    font-size: 3vmin;
+    padding-left: 1%;
+    padding-right: 50%;
+    padding-top: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section2
+{
+    display: flex;
+    height: 100vh;
+    /* position: relative; */
+    font-family: ex;
+    color: #000000;
+    /* text-transform: uppercase; */
     font-size: 7vmin;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 10%;
+    justify-content: flex-end;
+}
+.section3
+{
+    display: flex;
+    height: 90vh;
+    /* position: relative; */
+    font-family: ex;
+    color: #000000;
+    /* text-transform: uppercase; */
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+
 }
 
 section:nth-child(odd)
 {
     justify-content: flex-end;
 }
+
+h1,h2
+{
+    font-family: ex; 
+}
+
 
 /*# sourceMappingURL=main.css.map*/
